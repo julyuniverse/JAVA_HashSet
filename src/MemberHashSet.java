@@ -9,11 +9,6 @@ public class MemberHashSet {
         hashSet = new HashSet<>();
     }
 
-    // 생성자
-    public MemberHashSet(int size) {
-        hashSet = new HashSet<>(size);
-    }
-
     // 회원 추가
     public void addMember(Member member) {
         hashSet.add(member);
